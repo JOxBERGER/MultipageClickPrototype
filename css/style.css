@@ -1,13 +1,13 @@
 body, html{
   width: 100%;
-  height: 1000%;
-	font-family: Arial, sans-serif;
-	margin:0px;
-	background-color:#eee;
-	font-size: 100%;
-/*	-webkit-filter:  brightness(.7) saturate(0) contrast(1.2) blur(50px);*/
--webkit-transform: rotateX(0deg);
-transform: rotateX(0deg);
+  height: 100%;
+  font-family: Arial, sans-serif;
+  margin:0px;
+  background-color:#eee;
+  font-size: 100%;
+  /*	-webkit-filter:  brightness(.7) saturate(0) contrast(1.2) blur(50px);*/
+  -webkit-transform: rotateX(0deg);
+  transform: rotateX(0deg);
 }
 
 .coverBackground{
@@ -19,10 +19,26 @@ transform: rotateX(0deg);
   -moz-background-size: contain;
   -o-background-size: contain;
   background-size: contain;
-  }
+}
 
-  .bold{
-    font-size: 100%;
-    font-weight: 600;
-    color: white;
-  }
+.bold{
+  font-size: 100%;
+  font-weight: 600;
+  color: white;
+}
+
+#container{
+  position: relative;
+}
+
+.backgroundImage{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: -10;
+}
+
+.overlay{
+  z-index: 10;
+  position: absolute;
+}
