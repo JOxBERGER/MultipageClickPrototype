@@ -1,0 +1,16 @@
+All Pages
+<table>
+  <tr>
+    <th>Page</th>
+    <th>image</th>
+  </tr>
+  <tr ng-repeat="asset in siteAssets">
+    <td>{{asset.page}}</td>
+    <td>{{asset.title}}</td>
+    <td>
+      <a href="#/{{asset.pageID}}">
+      <img ng-src="{{asset.imagePath}}" alt="{{asset.title}}" width="100" />
+      </a>
+    </td>
+  </tr>
+</table>

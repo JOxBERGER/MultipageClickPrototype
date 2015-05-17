@@ -1,0 +1,15 @@
+{
+  "name": "simple_page",
+  "version": "0.0.1",
+  "description": "MultipleViewSite",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.12.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Jochen Leinberger",
+  "license": "The MIT License (MIT)"
+}

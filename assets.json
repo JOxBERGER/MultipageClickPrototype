@@ -1,0 +1,32 @@
+[
+    {
+        "pageID": "0",
+        "title": "start page",
+        "imagePath": "assets/000.png",
+        "linkToID": "1"
+    },
+    {
+        "pageID": "1",
+        "title": "first page",
+        "imagePath": "assets/001.png",
+        "linkToID": "2"
+    },
+    {
+        "pageID": "2",
+        "title": "second page",
+        "imagePath": "assets/002.png",
+        "linkToID": "3"
+    },
+    {
+        "pageID": "3",
+        "title": "third page",
+        "imagePath": "assets/003.png",
+        "linkToID": "4"
+    },
+    {
+        "pageID": "4",
+        "title": "forth and long page",
+        "imagePath": "assets/004.png",
+        "linkToID": "0"
+    }
+]
